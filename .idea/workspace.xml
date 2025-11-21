@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab36f0cc-ca47-4656-ae5b-fb26d79c1491" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/WebDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AboutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BillingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogAllPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogCompanyNewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogMarketingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogPricingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogTechnologyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BlogTutorialPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CreatePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HelpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LanguageSelectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LegalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LibraryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginNewAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PremiumUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PricingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyPolicyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SosialIconsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/StatusPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TermsServicePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/VideoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/VideoStatusPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/AboutRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BillingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BlogAllRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BlogCompanyNewsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BlogPricingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BlogTechnologyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/BlogTutorialRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/ContactRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/CreateRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/HelpRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/LanguageSelectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/LegalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/LibraryRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/LoginNewAccountRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/LoginRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/PremiumUserRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/PricingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/PrivacyPolicyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/SosialIconsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/StatusRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/TermsServiceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/VideoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/VideoStatusRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/AboutStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BillingStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogAllStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogCompanyNewsStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogMarketingStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogPricingStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogTechnologyStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/BlogTutorialStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/ContactStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/CreateStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/HelpStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/LanguageSelectStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/LegalStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/LibraryStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/LoginNewAccountStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/LoginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/PremiumUserStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/PricingStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/PrivacyPolicyStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/SosialIconsStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/StatusStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/TermsServiceStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/VideoStatusStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinition/VideoStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/suite/VeoAz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/About.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Billing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogAll.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogCompanyNews.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogMarketing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogPricing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogTechnology.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/BlogTutorial.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Contact.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Create.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Help.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Languageselect.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Legal.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Library.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/LoginNewAccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/PremiumUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Pricing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/PrivacyPolicy.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/SosialIcons.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Status.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/TermsService.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Video.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/VideoStatus.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/ExtentManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/WebDriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/AboutPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BillingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogAllPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogCompanyNewsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogMarketingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogPricingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogTechnologyPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BlogTutorialPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/ContactPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/CreatePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/HelpPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LanguageSelectPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LegalPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LibraryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LoginNewAccountPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/PremiumUserPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/PricingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/PrivacyPolicyPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/SosialIconsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/StatusPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/TermsServicePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/VideoPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/VideoStatusPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/AboutRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BillingRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BlogAllRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BlogCompanyNewsRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BlogPricingRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BlogTechnologyRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/BlogTutorialRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/ContactRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/CreateRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/HelpRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/LanguageSelectRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/LegalRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/LibraryRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/LoginNewAccountRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/LoginRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/PremiumUserRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/PricingRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/PrivacyPolicyRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/SosialIconsRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/StatusRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/TermsServiceRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/VideoRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/runners/VideoStatusRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/AboutStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BillingStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogAllStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogCompanyNewsStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogMarketingStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogPricingStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogTechnologyStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/BlogTutorialStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/ContactStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/CreateStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/HelpStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/LanguageSelectStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/LegalStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/LibraryStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/LoginNewAccountStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/LoginStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/PremiumUserStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/PricingStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/PrivacyPolicyStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/SosialIconsStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/StatusStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/TermsServiceStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/VideoStatusStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stepDefinition/VideoStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/suite/VeoAz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/html/CucumberTestReportPositive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/json/CucumberTestReportPositive.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/SosialIconsPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/StatusPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/TermsServicePage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/VideoPage.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/CreateStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/LibraryStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/LoginNewAccountStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/LoginStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/TermsServiceStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinition/VideoStep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/target/ExtentReport.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32pTxY9PrBuaerzZI2xjuLDNuhZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Scenario: The create function should work as desired -  - Example n°1.executor": "Run",
+    "JUnit.LoginNewAccountRunner.executor": "Run",
+    "JUnit.RegistrationRunner.executor": "Run",
+    "JUnit.VeoAz.executor": "Run",
+    "Maven.VeoazWeb [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/user/IdeaProjects/VeoazWeb/src/test/java",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/VeoazWeb/src/main/java/driver",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\VeoazWeb\src\main\java\driver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\VeoazWeb\src\test\java\features" />
+      <recent name="C:\Users\user\IdeaProjects\VeoazWeb\src\main\java" />
+      <recent name="C:\Users\user\IdeaProjects\VeoazWeb\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stepDefinition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VeoAz">
+    <configuration name="Scenario: The create function should work as desired -  - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Create.feature:15" />
+      <option name="GLUE" value="config stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="VeoazWeb" />
+      <option name="NAME_FILTER" value="^The create function should work as desired$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The create function should work as desired$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The create function should work as desired -  - Example n°1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginNewAccountRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VeoazWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.LoginNewAccountRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VeoazWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RegistrationRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VeoAz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VeoazWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="suite" />
+      <option name="MAIN_CLASS_NAME" value="suite.VeoAz" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: The create function should work as desired -  - Example n°1" />
+      <item itemvalue="JUnit.LoginNewAccountRunner" />
+      <item itemvalue="JUnit.RegistrationRunner" />
+      <item itemvalue="JUnit.VeoAz" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VeoAz" />
+        <item itemvalue="JUnit.LoginNewAccountRunner" />
+        <item itemvalue="Cucumber Java.Scenario: The create function should work as desired -  - Example n°1" />
+        <item itemvalue="JUnit.RegistrationRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab36f0cc-ca47-4656-ae5b-fb26d79c1491" name="Changes" comment="" />
+      <created>1758116760413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758116760413</updated>
+    </task>
+    <servers />
+  </component>
+</project>

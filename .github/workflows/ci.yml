@@ -1,15 +1,29 @@
-name: UI Tests CI
+name: UI Tests CI/CD
 
 on:
   push:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+  schedule:
+    - cron: "0 8 * * 1-5"   # Hər iş günü saat 08:00 UTC-da avtomatik run
   workflow_dispatch:
+    inputs:
+      runner_class:
+        description: "Specific runner class (e.g. LoginRunner). Leave empty for full suite."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
 
 jobs:
   ui-tests:
+    name: Run UI Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout code
@@ -24,6 +38,67 @@ jobs:
 
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
 
       - name: Run UI tests
-        run: mvn clean test
+        env:
+          HEADLESS: "true"
+        run: |
+          if [ -n "${{ github.event.inputs.runner_class }}" ]; then
+            mvn clean test -Dtest=${{ github.event.inputs.runner_class }}
+          else
+            mvn clean test
+          fi
+
+      - name: Upload ExtentReport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extent-report
+          path: target/ExtentReport.html
+          retention-days: 14
+
+      - name: Upload Cucumber HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: target/cucumber-reports/html/
+          retention-days: 14
+
+      - name: Upload Cucumber JSON Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-json-report
+          path: target/cucumber-reports/json/
+          retention-days: 14
+
+      - name: Upload Surefire Reports (failure logs)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: target/surefire-reports/
+          retention-days: 7
+
+      - name: Publish Test Results
+        if: always()
+        uses: dorny/test-reporter@v1
+        with:
+          name: Test Results
+          path: "target/surefire-reports/*.xml"
+          reporter: java-junit
+
+      - name: Add PR comment with results
+        if: always() && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: test-results
+          message: |
+            ## UI Test Results
+            **Status:** ${{ job.status == 'success' && 'Passed' || 'Failed' }}
+            **Branch:** `${{ github.head_ref }}`
+            **Commit:** `${{ github.sha }}`
+            **Reports:** Download artifacts from the Actions tab for detailed results.
